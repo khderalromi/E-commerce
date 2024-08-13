@@ -7,8 +7,8 @@ import { faMessage } from '@fortawesome/free-regular-svg-icons';
 
 const Footer=(props)=>{
     return(
-        <div className='grid bg-black text-white justify-between gap-1 sm:gap-20'>
-            <div className='mt-8 ml-5 mr-5 md:ml-15 md:mr-15 lg:ml-24 lg:mr-24 lg:mt-16 grid grid-flow-col justify-between'>    
+        <div className='grid bg-black text-white justify-between  sm:gap-20'>
+            <div className='mt-8 ml-5 mr-5 md:ml-15 md:mr-15 lg:ml-24 lg:mr-24 lg:mt-16 grid grid-flow-col gap-6 sm:gap-12 md:gap-15 xl:gap-24 justify-between'>    
                 <div className='space-y-4'>
                     <strong className='text-xs sm:text-sm md:text-md lg:text-lg xl:text-2xl'>Exclusive</strong>
                     <p className='custum_p'>Subscribe</p>
@@ -25,7 +25,7 @@ const Footer=(props)=>{
                 </div>
                 
                 <div className='space-y-2 sm:space-y-4'>
-                    <strong className='text-small sm:text-sm md:text-md lg:text-lg xl:text-xl'>Support</strong>
+                    <strong className='text-xSmall sm:text-sm md:text-md lg:text-lg xl:text-xl'>Support</strong>
                     <p className='custum_p'>111 Bijoy sarani, Dhaka,<br></br>  DH 1515, Bangladesh.</p>
                     <p className='custum_p'>exclusive@gmail.com</p>
                     <p className='custum_p'>+88015-88888-9999</p>
