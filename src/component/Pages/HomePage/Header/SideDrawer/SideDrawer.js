@@ -40,7 +40,7 @@ const  SideDrawer=(props)=>{
             <Backdrop show={props.open} clicked={props.closed} />
 
             <div  className= {props.open?
-                "inline-block fixed w-2/3 max-w-40 h-full left-0 top-5 z-200 bg-white pt-8 pb-8 pl-4 pr-4 box-border transition transform ease-in-out delay-0.3 md:hidden translate-x-0 " 
+                "inline-block fixed w-2/3 max-w-40 h-full left-0 top-5 z-20 bg-white pt-8 pb-8 pl-4 pr-4 box-border transition transform ease-in-out delay-0.3 md:hidden translate-x-0 " 
 
                 : 'hidden'}>
                 <div className='flex flex-row '>
