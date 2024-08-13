@@ -18,7 +18,7 @@ const BestSelling=(props)=>{
     }
 
     return(
-        <div className="mt-8 ml-5 mr-5 md:ml-15 md:mr-15 lg:ml-24 lg:mr-24 lg:mt-16 border-b-2">
+        <div className="mt-8 ml-5 mr-5 md:ml-15 md:mr-15 lg:ml-24 lg:mr-24 lg:mt-16 lg:border-b-2">
             
             <div className="before" >
                 <strong className="ml-3 text-red-500">This Month</strong>
