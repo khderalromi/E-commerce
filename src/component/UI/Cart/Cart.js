@@ -20,7 +20,6 @@ const Cart=(props)=>{
     useEffect(() => {
         AOS.init({
           once: false,
-          disable:'mobile',
           duration: 650,
           
         });

@@ -15,7 +15,6 @@ const Features=(props)=>{
     useEffect(() => {
         AOS.init({
           once: false,
-          disable: "phone",
           duration: 650,
           
         });
