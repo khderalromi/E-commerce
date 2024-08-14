@@ -35,9 +35,31 @@ const Category=(props)=>{
 
     const addIndexHandler=()=>{
         const updateIndex=index+1;
-        if(updateIndex< gategoryItems.length-6){
+        
+        if(window.innerWidth<400 && updateIndex< gategoryItems.length-4){
             return setIndex(index+1)
         }
+
+        
+        if((window.innerWidth>400 && window.innerWidth<600) && updateIndex< gategoryItems.length-5){
+            return setIndex(index+1)
+        }
+
+        
+        if((window.innerWidth>600 && window.innerWidth<800) && updateIndex< gategoryItems.length-6){
+            return setIndex(index+1)
+        }
+        
+        if((window.innerWidth>800 && window.innerWidth<1000) && updateIndex< gategoryItems.length-7){
+            return setIndex(index+1)
+        }
+
+        if((window.innerWidth>1000) && updateIndex< gategoryItems.length-8){
+            return setIndex(index+1)
+        }
+
+
+        
         
     }
 

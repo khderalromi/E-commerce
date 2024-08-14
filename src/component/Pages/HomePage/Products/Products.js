@@ -67,7 +67,7 @@ const Products=(props)=>{
                 </div>
             </div>                  
 
-            <div className= {show?"mt-5 grid grid-cols-2 gap-3 md:mt-12 md:grid-cols-3 md:gap-6 lg:grid-cols-4 lg-gap-16"
+            <div className= {show?"mt-5 grid grid-cols-2 gap-6 md:mt-12 md:grid-cols-3 lg:grid-cols-4 lg-gap-16"
                                 : "mt-5 w-full grid grid-cols-2 gap-3 md:grid-cols-3  md:gap-2 lg:grid-cols-4 "}>
 
             {show? 
@@ -209,7 +209,7 @@ const Products=(props)=>{
                        
             </div>
             
-            <div className="flex justify-center mt-6 mb-10">
+            <div className="flex justify-center mt-14 mb-10">
                 <button className="btn"  onClick={viewAllProductsHandler} disabled={disabledButton}>
                     View All Products
                 </button>

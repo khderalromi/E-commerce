@@ -52,7 +52,7 @@ const Features=(props)=>{
                 <div className='bg-black rounded-md col-span-2 row-span-1 w-full relative'  data-aos='flip-right'>
                     <img className='size-full rounded-md '  src={Women}></img>
 
-                    <div className='text-white ml-3 mb-3 absolute z-2 bottom-0 lg:ml-10 lg:mb-10'>
+                    <div className='text-white ml-3 mb-2 absolute z-2 bottom-0 lg:ml-10 lg:mb-10'>
 
                         <strong className='text-white text-xs sm:text-sm lg:text-2xl '>Women's Collections</strong>
                         <p className=' mt-0.5 mb-0.5  text-small  sm:text-xs lg:mt-2 lg:mb-2 lg:text:sm'>Featured woman collections that<br></br> give you another vibe.</p>
@@ -65,7 +65,7 @@ const Features=(props)=>{
                 <div className='bg-black rounded-md col-span-1 row-span-1 w-full relative' data-aos='flip-right'>
                     <img className='size-3/4'  src={Speakers}></img>
                     
-                    <div className='text-white ml-3 mb-3 absolute z-2 bottom-0 lg:ml-10 lg:mb-10'>
+                    <div className='text-white ml-3 mb-2 absolute z-2 bottom-0 lg:ml-10 lg:mb-10'>
                         <strong className='text-white text-xs sm:text-sm lg:text-3xl '>Speakers</strong>
                         <p className=' mt-0.5 mb-0.5 text-small sm:text-xs lg:text:sm lg:mt-2 lg:mb-2 '>Amazon wireless speakers</p>
                         <button className='underline text-small sm:text-sm  lg:text-base'>Shop Now</button>
@@ -77,7 +77,7 @@ const Features=(props)=>{
                 <div className='bg-black rounded-md col-span-1 row-span-1 w-full relative' data-aos='flip-right'>
                     <img className='size-5/6'  src={Perfume}></img>
                     
-                    <div className='text-white ml-3 mb-3 absolute z-2 bottom-0 lg:ml-10 lg:mb-10'>
+                    <div className='text-white ml-3 mb-2 absolute z-2 bottom-0 lg:ml-10 lg:mb-10'>
                         <strong className='text-white text-xs sm:text-sm lg:text-3xl '>Perfume</strong>
                         <p className=' mt-0.5 mb-0.5 text-small  sm:text-xs lg:text:sm lg:mt-2 lg:mb-2 '>GUCCI INTENSE OUD EDP</p>
                         <button className='underline text-small sm:text-sm  lg:text-basee'>Shop Now</button>
